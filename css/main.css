@@ -1,15 +1,38 @@
+
+
+/*font-family: 'Cardo', serif;*/
+
+#header-nav-wrap .header-main-nav li a, #header-nav-wrap .header-main-nav li a:visited {
+    font-weight: bold;
+}
+
+html{
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+h3{
+  color: #abb0b0 !important;
+
+}
+
 .pricing-table .plan-block.primary {
-    background: white;
+    background: #abb0b0;
 
 }
 
 
 .logo-text{
-  color: #abb0b0;
+  color: #faf8f8;
+
 }
 
 .intro-header{
   color: #abb0b0;
+
+}
+
+#about{
+  background: #faf8f8;
 }
 
 /*anusha additions above this line*/
@@ -557,7 +580,7 @@ td:last-child {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ffffff;
+  background: #faf8f8;
   z-index: 800;
   height: 100%;
   width: 100%;
@@ -797,7 +820,7 @@ input[type="reset"].button-primary,
 input[type="button"].button-primary {
   background-color: #891010;
   border-color: #891010;
-  color: #FFFFFF;
+  color: #faf8f8;
 }
 
 .button.button-primary:hover,
@@ -1208,7 +1231,7 @@ background-color: rgba(61, 10, 10, 0.58);
 
 .header-menu-toggle:hover,
 .header-menu-toggle:focus {
-  color: #FFFFFF;
+  color: #faf8f8;
 }
 
 .header-menu-toggle span {
@@ -1312,11 +1335,11 @@ background-color: rgba(61, 10, 10, 0.58);
 
 #header-nav-wrap .header-main-nav li a:hover,
 #header-nav-wrap .header-main-nav li a:focus {
-  color: #ffffff;
+  color: #faf8f8;
 }
 
 #header-nav-wrap .header-main-nav li.current a {
-  color: #ffffff;
+  color: #faf8f8;
 }
 
 #header-nav-wrap .cta {
@@ -1485,13 +1508,13 @@ background-color: rgba(61, 10, 10, 0.58);
   font-size: 5.2rem;
   letter-spacing: -.05rem;
   line-height: 1.269;
-  color: #ffffff;
+  color: #faf8f8;
   margin-bottom: 9rem;
 }
 
 .home-content-left .button.stroke {
-  color: #ffffff !important;
-  border-color: #ffffff;
+  color: #faf8f8 !important;
+  border-color: #faf8f8;
   margin: 0 .6rem 1.2rem;
   padding: 0 2.2rem;
   min-width: 188px;
@@ -1563,7 +1586,7 @@ background-color: rgba(61, 10, 10, 0.58);
 
 .home-social-list li a,
 .home-social-list li a:visited {
-  color: #FFFFFF;
+  color: #faf8f8;
 }
 
 .home-social-list li a:hover,
@@ -1608,7 +1631,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  color: #FFFFFF !important;
+  color: #faf8f8 !important;
   background: transparent;
   position: relative;
   top: 36px;
@@ -1849,7 +1872,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #about {
   min-height: 786px;
-  background: #ffffff;
+  background: #faf8f8;
   padding-top: 18rem;
   overflow: hidden;
 }
@@ -1949,14 +1972,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   font-family: "muli-bold";
   font-size: 2rem;
   content: attr(data-item);
-  color: #ffffff;
+  color: #faf8f8;
   height: 54px;
   width: 54px;
   line-height: 54px;
   text-align: center;
   border-radius: 50%;
   background-color: #891010;
-  box-shadow: 0 0 0 15px #ffffff;
+  box-shadow: 0 0 0 15px #faf8f8;
   z-index: 500;
   position: absolute;
   top: -12px;
@@ -2110,7 +2133,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .projects-table .plan-block {
-  background: #ffffff;
+  background: #faf8f8;
   border-radius: 5px;
   padding: 4.8rem 4rem 5.4rem;
   margin-bottom: 4.8rem;
@@ -2175,7 +2198,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .projects-table .plan-block.primary .plan-block-title,
 .projects-table .plan-block.primary .plan-block-price {
-  color: #ffffff;
+  color: #faf8f8;
 }
 
 .projects-table .plan-block.primary .plan-block-features {
@@ -2187,13 +2210,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .projects-table .plan-block.primary .plan-block-features li span {
-  color: #ffffff;
+  color: #faf8f8;
 }
 
 .projects-table .plan-block.primary .button.button-primary {
-  background: #ffffff;
+  background: #faf8f8;
   color: #151515;
-  border-color: #ffffff;
+  border-color: #faf8f8;
 }
 
 .projects-table .plan-block.primary .button.button-primary:hover,
@@ -2281,7 +2304,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #testimonials {
-  background: #FFFFFF;
+  background: #faf8f8;
   padding: 15rem 0 9rem;
   text-align: center;
   min-height: 600px;
@@ -2379,7 +2402,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #testimonial-slider .owl-nav [class*='owl-'] {
-  color: #FFFFFF;
+  color: #faf8f8;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
   height: 3rem;
@@ -2396,7 +2419,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .owl-nav [class*='owl-']:hover {
   background: rgba(0, 0, 0, 0.7);
-  color: #FFFFFF;
+  color: #faf8f8;
   text-decoration: none;
 }
 
@@ -2500,7 +2523,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download h1 {
-  color: #ffffff;
+  color: #faf8f8;
 }
 
 #download h1::before {
@@ -2681,14 +2704,14 @@ footer ul a:visited {
 }
 
 .footer-subscribe #mc-form input[type="email"]:focus {
-  color: #ffffff;
+  color: #faf8f8;
 }
 
 .footer-subscribe #mc-form input[type=submit] {
   position: absolute;
   top: 0;
   right: 0;
-  color: #ffffff;
+  color: #faf8f8;
   background: #891010;
   border-color: #891010;
   border-radius: 0 .5rem .5rem 0;
@@ -2696,7 +2719,7 @@ footer ul a:visited {
 }
 
 .footer-subscribe #mc-form label {
-  color: #ffffff;
+  color: #faf8f8;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.3rem;
   padding: 0 2rem;
@@ -2770,7 +2793,7 @@ footer ul a:visited {
   width: 60px;
   line-height: 60px;
   text-align: center;
-  background: black;
+  background: rgba(76, 32, 32, 0.5);
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   text-transform: uppercase;
@@ -2787,7 +2810,7 @@ footer ul a:visited {
 
 #go-top a:hover,
 #go-top a:focus {
-  color: #FFFFFF;
+  color: #faf8f8;
 }
 
 
