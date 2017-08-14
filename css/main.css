@@ -2,13 +2,36 @@
 
 /*font-family: 'Cardo', serif;*/
 
+.project-white{
+  color: #080707!important;
+}
+
+
+footer .links {
+    margin: auto auto 10px auto;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+footer {
+    margin: auto;
+    width: 100%;
+    padding: 0.5em 0px;
+    background-color: rgba(33, 33, 33, 1);
+    display: block;
+}
+
 #header-nav-wrap .header-main-nav li a, #header-nav-wrap .header-main-nav li a:visited {
     font-weight: bold;
 }
 
 html{
-  font-family: 'Pathway Gothic One', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif !important;
 }
+
 
 h3{
   color: #abb0b0 !important;
@@ -29,6 +52,10 @@ h3{
 .intro-header{
   color: #abb0b0;
 
+}
+
+.header-main-nav{
+font-size: 22px;
 }
 
 #about{
@@ -106,10 +133,10 @@ body {
 
 body {
   background: #141515;
-  font-family: "muli-regular", sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2rem;
   line-height: 1.875;
-  color: #767676;
+  color: #080707;
   margin: 0;
   padding: 0;
 }
@@ -121,14 +148,14 @@ body {
 
 a,
 a:visited {
-  color: #0087cc;
+  color: #731414;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 a:hover,
 a:focus {
-  color: #891010;
+  color: #731414;
 }
 
 
@@ -138,7 +165,7 @@ a:focus {
  * ------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #151515;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -195,10 +222,10 @@ p img {
 }
 
 p.lead {
-  font-family: "muli-light", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2.1rem;
   line-height: 1.857;
-  color: #838383;
+  color: #1e1919;
   margin-bottom: 3.6rem;
 }
 
@@ -209,7 +236,7 @@ p.lead {
 }
 
 em, i, strong, b {
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.875;
   font-style: normal;
   font-weight: normal;
@@ -377,7 +404,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #891010;
+  background: #731414;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -386,7 +413,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #891010;
+  color: #731414;
 }
 
 dd {
@@ -557,7 +584,7 @@ td:last-child {
   right: 100%;
   height: 100%;
   width: 100%;
-  background: #891010;
+  background: #731414;
 }
 
 .pace.pace-inactive {
@@ -710,7 +737,7 @@ input[type="radio"] {
 label>.label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   line-height: inherit;
 }
 
@@ -762,7 +789,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   border: none;
-  -webkit-text-fill-color: #57ca67;
+  -webkit-text-fill-color: #731414;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -779,7 +806,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.5rem;
   height: 5.4rem;
   line-height: calc(5.4rem - .6rem);
@@ -818,8 +845,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #891010;
-  border-color: #891010;
+  background-color: #731414;
+  border-color: #731414;
   color: #faf8f8;
 }
 
@@ -833,8 +860,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  background: #309a3f;
-  border-color: #309a3f;
+  background: #731414;
+  border-color: #731414;
 }
 
 button.full-width,
@@ -863,8 +890,8 @@ button.stroke,
 
 button.stroke:hover,
 .button.stroke:hover {
-  border: 0.3rem solid #891010;
-  color: #891010;
+  border: 0.3rem solid #731414;
+  color: #731414;
 }
 
 button.pill,
@@ -897,7 +924,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.5rem;
 }
 
@@ -1090,14 +1117,14 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #891010;
+  color: #731414;
 }
 
 .stats-tabs li a em {
   display: block;
   margin: .6rem 0 0 0;
   font-size: 1.4rem;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #909090;
 }
 
@@ -1109,7 +1136,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 h1.intro-header {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3.4rem;
   line-height: 1.324;
   color: #151515;
@@ -1122,7 +1149,7 @@ h1.intro-header::before {
   content: "";
   height: 2px;
   width: 70px;
-  background-color: #891010;
+  background-color: #731414;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1220,7 +1247,7 @@ background-color: rgba(61, 10, 10, 0.58);
   height: 42px;
   width: 42px;
   line-height: 42px;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -1303,7 +1330,7 @@ background-color: rgba(61, 10, 10, 0.58);
  * ------------------------------------------------------------------- */
 
 #header-nav-wrap {
-  font-family: "montserrat-medium", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 14px;
   position: absolute;
   top: 0;
@@ -1346,7 +1373,7 @@ background-color: rgba(61, 10, 10, 0.58);
   height: 3.6rem;
   line-height: calc(3.6rem - .6rem);
   padding: 0 1.5rem;
-  font-family: "montserrat-medium", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 14px;
   text-transform: none;
   letter-spacing: normal;
@@ -1496,7 +1523,7 @@ background-color: rgba(61, 10, 10, 0.58);
 
 .home-content-left h3 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -1504,7 +1531,7 @@ background-color: rgba(61, 10, 10, 0.58);
 }
 
 .home-content-left h1 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 5.2rem;
   letter-spacing: -.05rem;
   line-height: 1.269;
@@ -1627,7 +1654,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .scroll-icon {
   display: inline-block;
-  font-family: "montserrat-medium", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -1896,12 +1923,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-features .feature .icon i {
-  color: #891010;
+  color: #731414;
   font-size: 4.8rem;
 }
 
 .about-features .feature h3 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.9rem;
   color: #151515;
   margin-bottom: 3rem;
@@ -1978,7 +2005,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   line-height: 54px;
   text-align: center;
   border-radius: 50%;
-  background-color: #891010;
+  background-color: #731414;
   box-shadow: 0 0 0 15px #faf8f8;
   z-index: 500;
   position: absolute;
@@ -2061,7 +2088,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     padding: 0 10px 0 80px;
   }
   .about-how-content .step::before {
-    font-size: 1.6rem;
+    font-size: 2rem;
     height: 45px;
     width: 45px;
     line-height: 45px;
@@ -2146,13 +2173,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .projects-table .plan-block .plan-block-title {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2.4rem;
   margin-bottom: 3.6rem;
 }
 
 .projects-table .plan-block .plan-block-price {
-  font-family: "montserrat-medium", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 7.8rem;
   color: #151515;
   line-height: 1;
@@ -2160,7 +2187,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .projects-table .plan-block .plan-block-price sup {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3rem;
   top: -3.6rem;
   margin-right: 3px;
@@ -2169,7 +2196,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .projects-table .plan-block .plan-block-per {
   margin-top: -.6rem;
   margin-bottom: 0;
-  font-family: "montserrat-medium", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.7rem;
 }
 
@@ -2177,7 +2204,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   list-style: none;
   margin: 0 2rem 4.2rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 2.4rem;
 }
 
@@ -2187,12 +2214,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .projects-table .plan-block .plan-block-features li span {
-  color: #891010;
+  color: #731414;
   font-family: "muli-bold", sans-serif;
 }
 
 .projects-table .plan-block.primary {
-  background: #891010;
+  background: #731414;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -2221,7 +2248,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .projects-table .plan-block.primary .button.button-primary:hover,
 .projects-table .plan-block.primary .button.button-primary:focus {
-  color: #891010;
+  color: #731414;
 }
 
 .projects-table .plan-bottom-part {
@@ -2383,7 +2410,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 #testimonial-slider .testimonial-author .author-info span {
   display: block;
   font-family: "muli-bold", sans-serif;
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.313;
   letter-spacing: 0;
   text-transform: none;
@@ -2403,7 +2430,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .owl-nav [class*='owl-'] {
   color: #faf8f8;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.4rem;
   height: 3rem;
   line-height: 3rem;
@@ -2459,7 +2486,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .owl-dots .owl-dot.active span,
 #testimonial-slider .owl-dots .owl-dot:hover span {
-  background-color: #891010;
+  background-color: #731414;
 }
 
 
@@ -2515,7 +2542,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #download {
-  background: #891010;
+  background: #731414;
   color: #b2fabc;
   padding-top: 12rem;
   padding-bottom: 12rem;
@@ -2606,7 +2633,7 @@ footer {
 
 footer a,
 footer a:visited {
-  color: #891010;
+  color: #731414;
 }
 
 footer a:hover,
@@ -2712,15 +2739,15 @@ footer ul a:visited {
   top: 0;
   right: 0;
   color: #faf8f8;
-  background: #891010;
-  border-color: #891010;
+  background: #731414;
+  border-color: #731414;
   border-radius: 0 .5rem .5rem 0;
   padding: 0 15px;
 }
 
 .footer-subscribe #mc-form label {
   color: #faf8f8;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.3rem;
   padding: 0 2rem;
 }
