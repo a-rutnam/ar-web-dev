@@ -1639,7 +1639,7 @@ background-color: rgba(61, 10, 10, 0.58);
 .home-social-list li a:hover,
 .home-social-list li a:focus,
 .home-social-list li a:active {
-  color: #44c455;
+  color: #faf8f8;
 }
 
 
@@ -1664,7 +1664,7 @@ background-color: rgba(61, 10, 10, 0.58);
 
 .home-scrolldown a:hover,
 .home-scrolldown a:focus {
-  color: #44c455 !important;
+  color: #faf8f8 !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .home-scrolldown,
